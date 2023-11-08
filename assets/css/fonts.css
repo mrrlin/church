@@ -1,0 +1,15 @@
+@font-face {
+  font-family: Inter;
+  src: local('Inter-Regular'),
+    local('Inter Regular'),
+    url(../fonts/Inter.woff2);
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Molodo-font';
+  src: local('Molodo-font-Regular'),
+    local('Molodo-font Regular'),
+    url(../fonts/Molodo-font.woff2);
+}
