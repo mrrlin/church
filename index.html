@@ -78,7 +78,7 @@
               </li>
 
               <li class="navigation__item">
-                <a href="#" class="navigation__link">
+                <a href="#donation" class="navigation__link">
                   <p class="navigation__text">Пожертвования</p>
                 </a>
               </li>
@@ -180,7 +180,7 @@
         </div>
       </section>
 
-      <section class="section news">
+      <section class="section news" id="news">
         <div class="container container--full container--brown">
           <h2 class="news__title section__title">Новости</h2>
 
@@ -190,7 +190,7 @@
         </div>
       </section>
 
-      <section class="section store">
+      <section class="section store" id="store">
         <div class="container">
           <h2 class="store__title section__title">Магазин</h2>
 
@@ -232,6 +232,24 @@
           </div>
 
           <a href="#" class="store__page-link page-link">Перейти в магазин</a>
+        </div>
+      </section>
+
+      <section class="section donation" id="donation">
+        <div class="container container--picture-background">
+          <h2 class="donation__title page-link">
+            храм расчитывает
+            на вашу помощь
+          </h2>
+
+          <form class="donation__form" action="index.php" method="post">
+            <fieldset class="donation__fieldset">
+              <label for="donationAmount" class="donation__label">Пожертвовать</label>
+              <input type="number" class="donation__input" id="donationAmount">
+              <label class="donation__label">рублей</label>
+              <button class="donation__button-submit" type="submit">Отправить</button>
+            </fieldset>
+          </form>
         </div>
       </section>
     </main>
