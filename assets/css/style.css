@@ -9,3 +9,6 @@
 
 /* main styles */
 @import url(header.css);
+@import url(about.css);
+@import url(news.css);
+@import url(store.css);
