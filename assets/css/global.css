@@ -71,3 +71,9 @@ fieldset {
   padding-top: 45px;
   padding-bottom: 45px;
 }
+
+.body__page-link {overflow: hidden;
+  font-size: 24px;
+  font-weight: 700;
+  border-bottom: 2px solid var(--white-color, #fff);
+}

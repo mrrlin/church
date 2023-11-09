@@ -30,7 +30,7 @@
           <img
             src="assets/img/logo.svg"
             alt="Логотип в виде церкви"
-            class="heder__logo" />
+            class="header__logo" />
           <p class="header__title">князей Бориса и Глеба</p>
         </div>
       </div>
@@ -115,37 +115,42 @@
       <section class="section about" id="about">
         <div class="container">
           <h1 class="about__title">
-            Храм в честь благоверных князей Бориса и Глеба
+            Храм в честь благоверных
+            <span class="about__title about__title--bottom-line">князей Бориса и Глеба</span>
           </h1>
 
-          <article class="about__article">
-            <!-- <section class="about__description"> -->
-              <img
-                class="about__img"
-                src="assets/img/old-church-back.jpg"
-                alt="Чёрно-белая фотография старой церкви сбоку" />
-              <img
-                class="about__img"
-                src="assets/img/old-church-top.jpg"
-                alt="Чёрно-белая фотография старой церкви полностью" />
+          <div class="about__article-wrapper">
+            <article class="about__article">
+              <div class="about__img-wrapper">
+                <img
+                  class="about__img about__img--long"
+                  src="assets/img/old-church-back.jpg"
+                  alt="Чёрно-белая фотография старой церкви сбоку" />
+                <img
+                  class="about__img about__img--top"
+                  src="assets/img/old-church-top.jpg"
+                  alt="Чёрно-белая фотография старой церкви полностью" />  
+              </div>
+
+              <div class="about__text-wrapper">
+                <p class="about__text">
+                  В описи города Суздаля 1617 года уже не содержатся никаких
+                  упоминаний о Борисоглебском монастыре и его слободе.
+                </p>
+                <p class="about__text">
+                  По всей вероятности, это место было сожжено и разорено в период
+                  польской интервенции в Смутное время. Писцовая книга города
+                  Суздаля 1628—1629 годов отмечает: «За рекою за Каменкою монастырь
+                  Борисоглебской архиепископа Иосифа… На монастыре церковь во имя
+                  Благовещения Богородицы и другой храм Николы Чудотворца, де...
+                </p>
+              </div>
   
-              <p class="about__text">
-                В описи города Суздаля 1617 года уже не содержатся никаких
-                упоминаний о Борисоглебском монастыре и его слободе.
-              </p>
-              <p class="about__text">
-                По всей вероятности, это место было сожжено и разорено в период
-                польской интервенции в Смутное время. Писцовая книга города
-                Суздаля 1628—1629 годов отмечает: «За рекою за Каменкою монастырь
-                Борисоглебской архиепископа Иосифа… На монастыре церковь во имя
-                Благовещения Богородицы и другой храм Николы Чудотворца, де...
-              </p>
-  
-              <a href="#" class="about__page-link page-link">Подробнее</a>
-            <!-- </section> -->
+              <a href="#" class="about__page-link body__page-link">Подробнее</a>
+            </article>
   
             <article class="about__description">
-              <p class="about__column-title">Уважаемые посетители!</p>
+              <h3 class="about__column-title">Уважаемые посетители!</h3>
   
               <div class="about__text-wrapper">
                 <p class="about__text">
@@ -169,15 +174,15 @@
                 </p>
               </div>
   
-              <div class="about__rector-information">
+              <figure class="about__rector-information">
                 <img
                   class="about__rector-picture"
                   src="assets/img/tmp-avatar.jpg"
                   alt="Фотография настоятеля церкви" />
-                <p class="about__rector-name">Имя настоятеля Храма</p>
-              </div>
+                <figcaption class="about__rector-name">Имя настоятеля Храма</figcaption>
+              </figure>
             </article>
-          </article>
+          </div>
         </div>
       </section>
 
@@ -187,7 +192,7 @@
 
           <div class="news__slider"></div>
 
-          <a href="#" class="news__page-link page-link">Все новости</a>
+          <a href="#" class="news__page-link body__page-link">Все новости</a>
         </div>
       </section>
 
@@ -234,13 +239,13 @@
             </div>
           </div>
 
-          <a href="#" class="store__page-link page-link">Перейти в магазин</a>
+          <a href="#" class="store__page-link body__page-link">Перейти в магазин</a>
         </div>
       </section>
 
       <section class="section donation" id="donation">
         <div class="container container--picture-background">
-          <h2 class="donation__title page-link">
+          <h2 class="donation__title body__page-link">
             храм расчитывает на вашу помощь
           </h2>
 
