@@ -72,7 +72,14 @@ fieldset {
   padding-bottom: 45px;
 }
 
-.body__page-link {overflow: hidden;
+.section__title {
+  text-align: center;
+  font-family: Molodo-font;
+  font-size: 80px;
+  margin-bottom: 40px;
+}
+
+.body__page-link-text {
   font-size: 24px;
   font-weight: 700;
   border-bottom: 2px solid var(--white-color, #fff);

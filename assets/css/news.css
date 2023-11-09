@@ -1,0 +1,8 @@
+.news {
+  background-color: var(--bg-accent, #6D2826);
+}
+
+.news__page-link {
+  display: flex;
+  justify-content: center;
+}
