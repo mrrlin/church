@@ -1,0 +1,90 @@
+.footer__navigation-section {
+  background-color: var(--bg-accent, #6D2826);
+  padding-top: 60px;
+  padding-bottom: 114px;
+}
+
+.footer__wrapper-columns {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__title {
+  max-width: 395px;
+  font-size: 30px;
+  font-weight: 400;
+  margin-bottom: 39px;
+}
+
+.footer__contacts {
+  font-style: normal;
+}
+
+.footer__address {
+  width: 332px;
+}
+
+.footer__item {
+  font-size: 16px;
+  text-transform: uppercase;
+  margin-bottom: 18px;
+}
+
+.footer__item:last-child {
+  margin-bottom: 0;
+}
+
+.footer__navigation-item {
+  font-size: 16px;
+  text-transform: uppercase;
+  margin-bottom: 18px;
+}
+
+.footer__navigation-item:last-child {
+  margin-bottom: 0;
+}
+
+.footer__button {
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--bg-accent, #6D2826);
+  background-color: var(--white-color, #fff);
+  border: none;
+  margin-bottom: 40px;
+  padding: 30px 40px;
+}
+
+.social {
+  margin-bottom: 40px;
+}
+
+.social__list {
+  display: flex;
+  gap: 10px;
+}
+
+.social__item {
+  width: 40px;
+  height: 40px;
+}
+
+.social__link {
+  font-size: 0;
+}
+
+.footer__policy {
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+.footer__policy-text {
+  margin-bottom: 18px;
+}
+
+.footer__user-policy {
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+/* Combine styles of similar elements */
