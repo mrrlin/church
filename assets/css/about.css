@@ -40,13 +40,13 @@
 }
 
 .about__img {
-  /* width: 250px; */
-  width: 40%;
+  object-fit: cover;
   padding-left: 13px;
 }
 
 .about__img--long {
   height: 360px;
+  /* change the position */
   width: 250px;
 }
 

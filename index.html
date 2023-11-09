@@ -253,19 +253,20 @@
       <section class="section donation" id="donation">
         <div class="container container--picture-background">
           <h2 class="donation__title section__title">
-            храм расчитывает на вашу помощь
+            храм расчитывает 
+            <span class="donation__title donation__title--bottom-line">на вашу помощь</span>
           </h2>
 
           <form class="donation__form" action="index.php" method="post">
             <fieldset class="donation__fieldset">
-              <label for="donationAmount" class="donation__label"
-                >Пожертвовать</label
-              >
+              <label for="donationAmount" class="donation__label donation__text">
+                Пожертвовать
+              </label>
               <input
                 type="number"
                 class="donation__input"
                 id="donationAmount" />
-              <span class="donation__label">рублей</span>
+              <span class="donation__text">рублей</span>
               <button class="donation__button-submit" type="submit">
                 Отправить
               </button>
