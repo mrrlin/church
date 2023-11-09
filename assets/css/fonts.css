@@ -11,5 +11,6 @@
   font-family: 'Molodo-font';
   src: local('Molodo-font-Regular'),
     local('Molodo-font Regular'),
-    url(../fonts/Molodo-font.woff2);
+    url(../fonts/Molodo-font.woff2),
+    url(../fonts/Molodo-font.otf);
 }
