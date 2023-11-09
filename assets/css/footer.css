@@ -1,0 +1,36 @@
+.footer-contacts {
+  padding: 90px 0;
+}
+
+.footer-contacts__wrapper {
+  display: flex;
+  gap: 201px;
+}
+
+.footer-contacts__info {
+  font-style: normal;
+  max-width: 528px;
+}
+
+.footer-contacts__text {
+  font-size: 30px;
+  margin-bottom: 13px;
+}
+
+.footer-contacts__text:last-of-type {
+  margin-bottom: 40px;
+}
+
+.footer__office-hours {
+  min-width: 392px;
+  margin-bottom: 76px;
+}
+
+.footer-contacts__button {
+  background-color: var(--accent-light-brown, #DC6F48);
+  border: none;
+  color: inherit;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 30px 40px;
+}
