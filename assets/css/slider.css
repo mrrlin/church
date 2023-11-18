@@ -6,14 +6,16 @@
     align-items: center;
 }
 
-.slider__list {
-    display: flex;
-    column-gap: 30px;
+.slider__container {
     overflow: hidden;
 }
 
+.slider__list {
+    display: flex;
+    column-gap: 30px;
+}
+
 .slider__item {
-    max-width: 350px;
     max-height: 308px;
 }
 
