@@ -2,17 +2,16 @@
 
 .news__slider {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
 }
 
 .slider__container {
     overflow: hidden;
 }
 
-.slider__list {
+.slider__track {
     display: flex;
-    column-gap: 30px;
+    gap: 20px;
+    transition: 2s;
 }
 
 .slider__item {
@@ -20,7 +19,6 @@
 }
 
 .slider__img {
-    max-width: 350px;
 }
 
 .slider__button {

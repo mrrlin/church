@@ -1,16 +1,54 @@
+
+
 $(document).ready(function (){
     let position = 0;
-    const slideToShow = 2;
-    const slideToScroll = 1;
+    const slidesToShow = 3;
+    const slidesToScroll = 1;
 
     const container = $('.slider__container');
-    const list = $('.slider__list');
+    const track = $('.slider__track');
     const item = $('.slider__item');
-    const itemWidth = container.width() / slideToShow;
+    const itemCount = $(item.length)
+    const btnPrev = $('.slider__button_prev');
+    const btnNext = $('.slider__button_next');
+    const itemWidth = container.width() / slidesToShow;
+    const movePosition = slidesToScroll * itemWidth;
 
-    item.forEach(function (index, item) {
+
+    item.each(function (index, item) {
         $(item).css({
             minWidth: itemWidth,
-        })
+        });
     });
+
+
+    btnNext.click(function () {
+        position -= movePosition;
+        setPosition()
+    });
+
+    btnPrev.click(function () {
+
+        position += movePosition;
+        setPosition()
+        checkBtn()
+    });
+
+    const setPosition = () => {
+        track.css({
+            transform: `translateX(${position}px)`
+        });
+        checkBtn()
+    };
+
+    const checkBtn = () => {
+        btnPrev.prop('disabled', position === 0);
+        btnNext.prop('disabled',position <= (itemCount - slidesToShow) * itemWidth);
+    };
+    checkBtn();
 });
+
+
+
+
+
