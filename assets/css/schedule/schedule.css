@@ -6,6 +6,22 @@
   margin-bottom: 80px;
 }
 
+.day-schedule {
+  padding: 40px 0 40px;
+}
+
+.day-schedule:first-of-type {
+  padding-top: 0;
+}
+
+.day-schedule:last-of-type {
+  padding-bottom: 0;
+}
+
+.day-schedule--disabled {
+  opacity: 0.5;
+}
+
 .day-schedule__container {
   max-width: 867px;
 }
