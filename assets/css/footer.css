@@ -25,6 +25,7 @@
 }
 
 .footer__item {
+  display: block;
   font-size: 16px;
   text-transform: uppercase;
   margin-bottom: 18px;
@@ -49,14 +50,7 @@
 }
 
 .footer__button {
-  font-size: 20px;
-  font-weight: 700;
-  text-transform: uppercase;
-  color: var(--bg-accent, #6D2826);
-  background-color: var(--white-color, #fff);
-  border: none;
   margin-bottom: 40px;
-  padding: 30px 40px;
 }
 
 .social {

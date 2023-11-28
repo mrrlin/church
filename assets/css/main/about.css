@@ -13,45 +13,55 @@
 
 .about__title--bottom-line {
   display: block;
-  padding-left: 307px;
+  text-align: right;
+  padding-right: 104px;
 }
 
 /* articles */
 .about__article-wrapper {
+  position: relative;
   display: flex;
-  gap: 193px;
+  /* gap: 193px; */
 }
 
 .about__article {
   max-width: 530px;
+  margin-right: 91px;
 }
 
-.about__description:last-child::before {
+.about__description {
+  padding-left: 92px;
+}
+
+/* .about__description:last-child::after {
   content: '';
   display: inline-block;
-  width: 2px;
-  height: 100px;
+  width: 1px;
+  height: 728px;
   color: var(--white-color, #fff);
   position: absolute;
-}
+  top: 5px;
+  left: 50%;
+  transform: translate(-50%);
+  z-index: 111;
+} */
 
 .about__img-wrapper {
   margin-bottom: 57px;
+  padding-left: 13px;
 }
 
 .about__img {
   object-fit: cover;
-  padding-left: 13px;
 }
 
 .about__img--long {
   height: 360px;
-  /* change the position */
   width: 250px;
 }
 
 .about__img--top {
-  width: 317px;
+  width: 300px;
   height: 241px;
   margin-left: -55px;
   margin-bottom: -17px;
@@ -82,6 +92,12 @@
   font-weight: 400;
   margin-bottom: 40px;
 }
+
+/* .about__separator {
+  width: 3px;
+  height: 100px;
+  color: var(--white-color, #fff);
+} */
 
 .about__rector-information {
   display: flex;

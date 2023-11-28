@@ -7,11 +7,16 @@
 /* variables */
 @import url(var.css);
 
-/* main styles */
+/* header, footer styles */
 @import url(header.css);
-@import url(about.css);
-@import url(news.css);
-@import url(store.css);
-@import url(donation.css);
-@import url(contacts.css);
 @import url(footer.css);
+
+/* main page styles */
+@import url(main/about.css);
+@import url(main/news.css);
+@import url(main/store.css);
+@import url(main/donation.css);
+@import url(main/contacts.css);
+
+/* schedule page styles */
+@import url(schedule/schedule.css);
