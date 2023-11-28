@@ -1,0 +1,33 @@
+.about-section {
+  padding: 90px 0 90px;
+}
+
+.about-section__title {
+  margin-bottom: 80px;
+}
+
+.tab-list {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+  margin-bottom: 102px;
+}
+
+.tab-list__item {
+  background-color: transparent;
+  border: none;
+  opacity: 0.5;
+}
+
+.tab-list__item--active {
+  opacity: 1;
+}
+
+.tab-list__img {
+  width: 302px;
+  margin-bottom: 12px;
+}
+
+.tab-list__text {
+  color: #fff;
+}

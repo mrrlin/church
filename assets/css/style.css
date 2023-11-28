@@ -20,3 +20,6 @@
 
 /* schedule page styles */
 @import url(schedule/schedule.css);
+
+/* about page styles */
+@import url(about/about.css);
