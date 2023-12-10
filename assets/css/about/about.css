@@ -6,21 +6,30 @@
   margin-bottom: 80px;
 }
 
-.tab-list {
+.tabs__header {
   display: flex;
   justify-content: space-between;
   gap: 15px;
   margin-bottom: 102px;
 }
 
-.tab-list__item {
+.tabs__header-item {
   background-color: transparent;
   border: none;
   opacity: 0.5;
+  transition: 0.3s;
 }
 
-.tab-list__item--active {
+.tabs__header-item--active {
   opacity: 1;
+}
+
+.tabs__content {
+  display: none;
+}
+
+.tabs__content--active {
+  display: block;
 }
 
 .tab-list__img {
@@ -30,4 +39,24 @@
 
 .tab-list__text {
   color: #fff;
+}
+
+.tab-content__title {
+  font-size: 30px;
+  font-weight: 400px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.tab-content__text:not(:last-of-type) {
+  margin-bottom: 35px;
+}
+
+.tab-content__img-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.tab-content__img {
+  width: 290px;
 }
