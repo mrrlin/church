@@ -1,5 +1,6 @@
 .news__slider {
   display: flex;
+  margin-bottom: 40px;
 }
 
 .slider__container {
@@ -16,8 +17,8 @@
   max-height: 308px;
 }
 
-.slider__img {
-}
+/* .slider__img {
+} */
 
 .slider__button {
   background: 0;
@@ -42,6 +43,6 @@
   border-radius: 50%;
 }
 
-.slider__svg_prev {
+.slider__svg--prev {
   rotate: 180deg;
 }
