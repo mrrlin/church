@@ -23,3 +23,6 @@
 
 /* about page styles */
 @import url(about/about.css);
+
+/* slider styles */
+@import url(slider.css);
