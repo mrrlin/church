@@ -1,3 +1,7 @@
+.footer {
+  color: var(--white-color, #fff);
+}
+
 .footer__navigation-section {
   background-color: var(--bg-accent, #6D2826);
   padding-top: 60px;

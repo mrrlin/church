@@ -1,5 +1,10 @@
 .header {
   background-color: var(--bg-header, #6D2725);
+  color: var(--white-color, #fff);
+}
+
+.header--shadow {
+  box-shadow: var(--header-shadow, 0px 4px 35.3px 0px rgba(108, 4, 4, 0.10));
 }
 
 .header__content {

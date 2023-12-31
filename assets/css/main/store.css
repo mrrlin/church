@@ -3,12 +3,13 @@
 }
 
 .store__description {
+  text-indent: 45px;
   margin-bottom: 40px;
 }
 
-.store__description--red-line {
+/* .store__description--red-line {
   padding-left: 45px;
-}
+} */
 
 .store__wrapper {
   display: flex;

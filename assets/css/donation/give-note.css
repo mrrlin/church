@@ -1,0 +1,32 @@
+.give-note {
+  padding-top: 120px;
+}
+
+.give-note__text-wrapper {
+  margin-bottom: 40px;
+}
+
+.give-note__text:not(:last-child) {
+  text-indent: 18px;
+  margin-bottom: 20px;
+}
+
+.table-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.prices-table {
+  width: 810px;
+}
+
+.prices-table,
+.prices-table__row,
+.prices-table__col {
+  border: var(--table-border, 1px solid #828282);
+  border-collapse: collapse;
+}
+
+.prices-table__col {
+  padding: 10px 10px 12px;
+}

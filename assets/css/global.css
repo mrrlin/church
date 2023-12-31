@@ -72,8 +72,8 @@ fieldset {
 }
 
 .section {
-  padding-top: 45px;
-  padding-bottom: 45px;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .section__title {
@@ -81,6 +81,10 @@ fieldset {
   font-family: Molodo-font;
   font-size: 80px;
   margin-bottom: 40px;
+}
+
+.section__title--brown {
+  color: var(--bg-color, #893228);
 }
 
 .body__page-link-text {
@@ -99,6 +103,7 @@ fieldset {
   padding: 30px 40px;
 }
 
-.body--white {
+.body--bg-white {
   background-color: var(--white-color, #fff);
+  color: var(--black-color, #000);
 }

@@ -24,5 +24,9 @@
 /* about page styles */
 @import url(about/about.css);
 
+/* donation page styles */
+@import url(donation/give-note.css);
+@import url(donation/write-note.css);
+
 /* slider styles */
 @import url(slider.css);
