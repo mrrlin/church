@@ -48,7 +48,11 @@
   margin-bottom: 40px;
 }
 
-.tab-content__text:not(:last-of-type) {
+/* .tab-content__text:not(:last-of-type) {
+  margin-bottom: 35px;
+} */
+
+.tab-content__text {
   margin-bottom: 35px;
 }
 

@@ -98,3 +98,7 @@ fieldset {
   border: none;
   padding: 30px 40px;
 }
+
+.body--white {
+  background-color: var(--white-color, #fff);
+}
