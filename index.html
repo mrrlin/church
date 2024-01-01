@@ -21,9 +21,8 @@
 
     <!-- styles -->
     <link rel="stylesheet" href="assets/css/style.css" />
-
-    <script src="js/jquery-3.7.1.min.js" defer></script>
-    <script src="js/slider.js" defer></script>
+	  <link rel="stylesheet" href=assets/OwlCarousel2-2.3.4/dist/assets/owl.theme.default.css>
+	  <link rel="stylesheet" href=assets/OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css>
   </head>
   <body class="body">
     <header class="header">
@@ -198,30 +197,38 @@
       <section class="section news" id="news">
         <div class="container container--full container--brown">
           <h2 class="news__title section__title">Новости</h2>
-
-          <div class="news__slider">
-            <button class="slider__button slider__button--prev">
-              <svg class="slider__svg slider__svg--prev" xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50" fill="">
-                <path d="M23.3 33.3L31.6 25L23.3 16.7L24.7 15.3L34.4 25L24.7 34.7L23.3 33.3Z" fill=""/>
-                <path d="M33 24V26H16V24H33Z" fill=""/>
-              </svg>
-            </button>
-            <div class="slider__container">
-              <div class="slider__track">
-                <div class="slider__item"><img class="slider__img" src="assets/img/slider/slider-pic1.jpg" alt="Фотография храма"></div>
-                <div class="slider__item"><img class="slider__img" src="assets/img/slider/slider-pic1.jpg" alt="Фотография храма"></div>
-                <div class="slider__item"><img class="slider__img" src="assets/img/slider/slider-pic1.jpg" alt="Фотография храма"></div>
-                <div class="slider__item"><img class="slider__img" src="assets/img/slider/slider-pic3.jpg" alt="Фотография храма"></div>
-              </div>
-            </div>
-            <button class="slider__button slider__button--next">
-              <svg class="slider__svg" xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50" fill="">
-                <path d="M23.3 33.3L31.6 25L23.3 16.7L24.7 15.3L34.4 25L24.7 34.7L23.3 33.3Z" fill=""/>
-                <path d="M33 24V26H16V24H33Z" fill=""/>
-              </svg>
-            </button>
-          </div>
-
+	        <div class="owl-carousel owl-theme">
+		        <div class="item">
+			        <div class="slider__item">
+			          <img class="slider__img" src="assets/img/slider/slider-pic1.jpg" alt="Фотография храма">
+				        <p class="slider__date">22.22.2222</p>
+				        <p class="slider__subtitle">Начат сбор пожертвований на ремонт храма</p>
+		          </div>
+		        </div>
+		        <div class="item">
+			        <div class="slider__item">
+			          <img class="slider__img" src="assets/img/slider/slider-pic1.jpg" alt="Фотография храма">
+				        <p class="slider__date">22.22.2222</p>
+				        <p class="slider__subtitle">Начат сбор пожертвований на ремонт храма</p>
+		          </div>
+		        </div>
+		        <div class="item">
+			        <div class="slider__item">
+			          <img class="slider__img" src="assets/img/slider/slider-pic1.jpg" alt="Фотография храма">
+				        <p class="slider__date">22.22.2222</p>
+				        <p class="slider__subtitle">Начат сбор пожертвований на ремонт храма</p>
+		          </div>
+		        </div>
+		        <div class="item">
+			        <div class="slider__item">
+			          <img class="slider__img" src="assets/img/slider/slider-pic1.jpg" alt="Фотография храма">
+				        <p class="slider__date">22.22.2222</p>
+				        <p class="slider__subtitle">Начат сбор пожертвований на ремонт храма</p>
+		          </div>
+		        </div>
+		       
+	        </div>
+	       
           <a href="#" class="news__page-link body__page-link">
             <p class="body__page-link-text">Все новости</p>
           </a>
@@ -447,5 +454,8 @@
         </div>
       </section>
     </footer>
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="assets/OwlCarousel2-2.3.4/dist/owl.carousel.js"></script>
+    <script src="js/slider.js"></script>
   </body>
 </html>
