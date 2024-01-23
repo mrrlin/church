@@ -88,8 +88,9 @@ fieldset {
 }
 
 .body__page-link-text {
-  font-size: 24px;
-  font-weight: 700;
+  font-size: 16px;
+  font-weight: 400;
+  text-transform: uppercase;
   border-bottom: 2px solid var(--white-color, #fff);
 }
 
