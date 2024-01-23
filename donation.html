@@ -22,7 +22,7 @@
     <!-- styles -->
     <link rel="stylesheet" href="assets/css/style.css" />
   </head>
-  <body class="body--bg-white">
+  <body class="body body--bg-white">
     <header class="header header--shadow">
       <div class="container">
         <div class="header__content">
@@ -155,7 +155,68 @@
         <div class="container">
           <h2 class="section__title section__title--brown">Составление записки</h2>
 
+          <!-- сделать counter -->
+          <div class="write-note__form-wrapper">
+            <form class="write-note__form form-note" method="post" action="index.php">
+              <fieldset class="form-note__fieldset">
+                <h3 class="form-note-title">1. Выберите требу</h3>
+                <fieldset class="form-note__radio-group">
+                  <input type="radio" class="form-note__input" id="inputHealth" name="goal">
+                  <label for="inputHealth" class="form-note__label">О здравии</label>
+                </fieldset>
 
+                <fieldset class="form-note__radio-group">
+                  <input type="radio" class="form-note__input" id="inputDeath" name="goal">
+                  <label for="inputDeath" class="form-note__label">О здравии</label>
+                </fieldset>
+              </fieldset>
+              
+              <fieldset class="form-note__fieldset">
+                <h3 class="form-note-title">2. Выберите наименование</h3>
+                <select class="form-note__select" name="note-name" id="noteName">
+                  <option value="op1" class="form-note__option">Обедня простая</option>
+                  <option value="op2" class="form-note__option">О2</option>
+                  <option value="op3" class="form-note__option">О3</option>
+                  <option value="op4" class="form-note__option">О4</option>
+                  <option value="op5" class="form-note__option">О5</option>
+                </select>
+              </fieldset>
+              
+              <fieldset class="form-note__fieldset">
+                <h3 class="form-note-title">3. Впишите имена</h3>
+                <textarea class="form-note__textarea" name="names" id="names" cols="30" rows="9">Имена</textarea>
+                <p class="form-note__desc">При необходимости получить подтверждение для вечного поминовения, укажите адрес</p>
+                <textarea class="form-note__textarea" name="comment" id="comment" cols="30" rows="9">Имена</textarea>
+              </fieldset>
+
+              <fieldset class="form-note__fieldset fieldset__contacts">
+                <h3 class="form-note-title">4. Впишите контактные данные <span class="form-note__optional">(не обязательно)</span></h3>
+                <input type="text" class="form-note__input input-contacts" id="personName" name="person-name" placeholder="Ваще имя">
+                <input type="email" class="form-note__input input-contacts" id="email" name="email" placeholder="Электронная почта">
+              </fieldset>
+
+              <div class="form-note__preview"></div>
+
+              <fieldset class="form-note__fieldset fieldset__payment">
+                <h3 class="form-note-title">5. Выберите способ оплаты</h3>
+                <input type="radio" class="form-note__input" id="bankCard" name="bank-card">
+                <label for="bankCard" class="form-note__label">Банковская карта</label>
+
+                <input type="radio" class="form-note__input" id="transfer" name="transfer">
+                <label for="transfer" class="form-note__label">Перевод</label>
+              </fieldset>
+
+              <!-- убрать margin -->
+              <fieldset class="form-note__fieldset fieldset__policy">
+                <input type="checkbox" class="form-note__input" id="policy" name="policy">
+                <label for="policy" class="form-note__label">Нажимая на кнопку «Отправить записку», я даю согласие на обработку персональных данных в соответствии с Политикой конфиденциальности
+                  и договором оферты.
+                </label>
+              </fieldset>
+
+              <button type="submit" class="form-note__submit">отправить записку</button>
+            </form>
+          </div>
         </div>
       </section>
     </main>
