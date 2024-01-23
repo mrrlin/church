@@ -12,18 +12,19 @@
   max-width: 528px;
 }
 
-.footer-contacts__text {
-  font-size: 30px;
-  margin-bottom: 13px;
-}
-
-.footer-contacts__text:last-of-type {
+.footer-contacts__text-wrapper {
   margin-bottom: 40px;
 }
 
-.footer__office-hours {
-  min-width: 392px;
-  margin-bottom: 76px;
+.footer-contacts__text-title {
+  font-size: 30px;
+  font-weight: 500;
+  margin-bottom: 13px;
+}
+
+.footer-contacts__text {
+  max-width: 392px;
+  font-size: inherit;
 }
 
 .footer-contacts__button {
@@ -33,4 +34,12 @@
   font-weight: 700;
   text-transform: uppercase;
   padding: 30px 40px;
+}
+
+.footer-contacts__map {
+  max-width: 647px;
+}
+
+.footer-contacts__map-picture {
+  height: 100%;
 }

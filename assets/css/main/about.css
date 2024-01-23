@@ -82,13 +82,11 @@
   margin-bottom: 0;
 }
 
-/* second article */
+/* greeting */
 .about__column-title {
-  /* max-width: 415px; */
   text-align: center;
   font-size: 30px;
   font-weight: 400;
-  /* padding-right: 65px; */
   margin-bottom: 40px;
 }
 
@@ -113,5 +111,4 @@
 
 .about__rector-name {
   font-size: 18px;
-  /* padding-top: 99px; */
 }
