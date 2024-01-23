@@ -108,3 +108,10 @@ fieldset {
   background-color: var(--white-color, #fff);
   color: var(--black-color, #000);
 }
+
+@media (max-width: 420px) {
+  .body__page-link-text {
+    display: inline-block;
+    text-align: center;
+  }
+}
