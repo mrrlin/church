@@ -110,9 +110,9 @@ fieldset {
 }
 
 @media (max-width: 420px) {
-  .body__page-link-text {
-    display: inline-block;
-    text-align: center;
+  .body__page-link {
+    display: flex;
+    justify-content: center;
   }
 
   .section {
@@ -121,5 +121,6 @@ fieldset {
   
   .section__title {
     font-size: 24px;
+    margin-bottom: 20px;
   }
 }
