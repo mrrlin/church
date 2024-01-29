@@ -67,4 +67,8 @@
   .footer-contacts__text {
     font-size: 14px;
   }
+
+  .footer-contacts__button {
+    width: 100%;
+  }
 }

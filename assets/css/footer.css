@@ -25,7 +25,7 @@
 }
 
 .footer__address {
-  width: 332px;
+  max-width: 332px;
 }
 
 .footer__item {
@@ -87,4 +87,54 @@
 .footer__user-policy {
   font-size: 16px;
   text-transform: uppercase;
+}
+
+@media (max-width: 420px) {
+  .footer__navigation-section {
+    padding: 30px 0;
+  }
+
+  .footer__wrapper-columns {
+    flex-direction: column;
+  }
+
+  .footer__title {
+    font-size: 20px;
+    margin-bottom: 30px;
+  }
+
+  .footer__contacts {
+    margin-bottom: 30px;
+  }
+
+  .footer__column {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .footer__item {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+
+  .footer__address {
+    margin-bottom: 20px;
+  }
+
+  .footer__navigation-item {
+    margin-bottom: 20px;
+  }
+
+  .footer__navigation {
+    margin-bottom: 20px;
+  }
+
+  .social {
+    order: -1;
+    margin-bottom: 20px;
+  }
+
+  .footer__button {
+    margin-bottom: 20px;
+  }
 }
