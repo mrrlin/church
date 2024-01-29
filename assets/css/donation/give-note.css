@@ -30,3 +30,9 @@
 .prices-table__col {
   padding: 10px 10px 12px;
 }
+
+@media (max-width: 420px) {
+  .header__logo--white {
+    display: none;
+  }
+}

@@ -87,3 +87,17 @@
 .form-note__submit {
   grid-row: 6 / 7;
 }
+
+@media (max-width: 420px) {
+  /* .form-note {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(1fr, 6);
+  } */
+  .form-note {
+    display: flex;
+    flex-direction: column;
+  }
+  .form-note__preview {
+    display: none;
+  }
+}
