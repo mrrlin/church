@@ -1,0 +1,13 @@
+.contacts {
+  padding-bottom: 150px;
+}
+
+@media (max-width: 420px) {
+  .header__title {
+    display: none;
+  }
+
+  .header__content {
+    margin-bottom: 0;
+  }
+}

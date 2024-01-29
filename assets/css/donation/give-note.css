@@ -6,7 +6,7 @@
   margin-bottom: 40px;
 }
 
-.give-note__text:not(:last-child) {
+.give-note__text-wrapper p:not(:last-child) {
   text-indent: 18px;
   margin-bottom: 20px;
 }
@@ -34,5 +34,18 @@
 @media (max-width: 420px) {
   .header__logo--white {
     display: none;
+  }
+
+  .give-note {
+    padding: 15px 0;
+  }
+
+  .give-note__text {
+    text-align: justify;
+    font-size: 14px;
+  }
+
+  .prices-table {
+    font-size: 14px;
   }
 }

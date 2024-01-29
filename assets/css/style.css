@@ -28,5 +28,8 @@
 @import url(donation/give-note.css);
 @import url(donation/write-note.css);
 
+/* contacts page styles */
+@import url(contacts.css);
+
 /* slider styles */
 @import url(slider.css);
