@@ -3,6 +3,8 @@
 }
 
 .content {
+  display: flex;
+  flex-direction: column;
   margin-bottom: 40px;
 }
 
@@ -13,6 +15,7 @@
 
 .info {
   display: flex;
+  flex-direction: row;
   gap: 40px;
 }
 
@@ -26,4 +29,27 @@
 
 .post__navigation-item:not(:last-child) {
   margin-right: 41px;
+}
+
+@media (max-width: 420px) {
+  .info {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .info__text-content:not(:last-child) {
+    margin-bottom: 15px;
+  }
+
+  .info__img {
+    order: -1;
+  }
+  
+  .content {
+    margin-bottom: 20px;
+  }
+
+  .content__date {
+    margin-bottom: 0;
+  }
 }
