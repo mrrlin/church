@@ -31,5 +31,8 @@
 /* contacts page styles */
 @import url(contacts.css);
 
+/* news pages styles */
+@import url(news/news-item.css);
+
 /* slider styles */
 @import url(slider.css);

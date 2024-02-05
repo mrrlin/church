@@ -91,7 +91,12 @@ fieldset {
   font-size: 16px;
   font-weight: 400;
   text-transform: uppercase;
-  border-bottom: 2px solid var(--white-color, #fff);
+  border-bottom: 1px solid var(--white-color, #fff);
+}
+
+.body__page-link-text--dark-color {
+  color: var(--bg-header, #6D2725);
+  border-color: var(--bg-header, #6D2725);
 }
 
 .submit-note {

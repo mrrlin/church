@@ -1,0 +1,29 @@
+.post__content {
+  font-size: 18PX;
+}
+
+.content {
+  margin-bottom: 40px;
+}
+
+.content__date {
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+.info {
+  display: flex;
+  gap: 40px;
+}
+
+.info__text-content:not(:last-child) {
+  margin-bottom: 35px;
+}
+
+.post__navigation {
+  text-align: center;
+}
+
+.post__navigation-item:not(:last-child) {
+  margin-right: 41px;
+}
