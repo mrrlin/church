@@ -73,3 +73,15 @@
 .day-schedule__item:not(:last-child) {
   margin-bottom: 40px;
 }
+
+.calendar {
+  float: right;
+}
+
+.calendar__tmp {
+  margin-bottom: 40px;
+}
+
+.calendar__btn {
+  display: block;
+}
