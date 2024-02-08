@@ -11,3 +11,33 @@
 .slider__subtitle {
     font-size: 18px;
 }
+
+.owl-prev{
+    background-image: url("../img/slider/arrow.svg")!important;
+    background-size: cover;
+    width: 46px;
+    height: 46px;
+    position: absolute;
+    left: -100px;
+    bottom: 140px;
+    top: 30%;
+}
+
+
+.owl-next{
+    background-image: url("../img/slider/arrow.svg")!important;
+    rotate: 180deg;
+    background-size: cover;
+    width: 46px;
+    height: 46px;
+    position: absolute;
+    right:  -84px;
+    bottom: 140px;
+    top: 30%;
+}
+
+@media (max-width: 720px) {
+    .owl-nav {
+        display: none;
+}
+}
