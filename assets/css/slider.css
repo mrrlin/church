@@ -1,43 +1,47 @@
 .slider__img {
-    height: 216px;
-    background-size: cover;
-    margin-bottom: 10px;
+  height: 216px;
+  object-fit: cover;
+  margin-bottom: 10px;
 }
 
 .slider__date {
-    font-size: 18px;
-    margin-bottom: 10px;
+  font-size: 18px;
+  margin-bottom: 10px;
 }
 .slider__subtitle {
-    font-size: 18px;
+  font-size: 18px;
+}
+
+.owl-carousel {
+  margin-bottom: 40px;
 }
 
 .owl-prev{
-    background-image: url("../img/slider/arrow.svg")!important;
-    background-size: cover;
-    width: 46px;
-    height: 46px;
-    position: absolute;
-    left: -100px;
-    bottom: 140px;
-    top: 30%;
+  background-image: url("../img/slider/arrow.svg")!important;
+  background-size: cover;
+  width: 46px;
+  height: 46px;
+  position: absolute;
+  left: -100px;
+  bottom: 140px;
+  top: 30%;
 }
 
 
 .owl-next{
-    background-image: url("../img/slider/arrow.svg")!important;
-    rotate: 180deg;
-    background-size: cover;
-    width: 46px;
-    height: 46px;
-    position: absolute;
-    right:  -84px;
-    bottom: 140px;
-    top: 30%;
+  background-image: url("../img/slider/arrow.svg")!important;
+  rotate: 180deg;
+  background-size: cover;
+  width: 46px;
+  height: 46px;
+  position: absolute;
+  right:  -84px;
+  bottom: 140px;
+  top: 30%;
 }
 
 @media (max-width: 720px) {
     .owl-nav {
-        display: none;
+      display: none;
 }
 }
